@@ -11,18 +11,12 @@ updates:
 
   - package-ecosystem: "gradle"
     directory: "/initial/"
-    ignore:
-      - dependency-name: "org.springframework.*"
-        update-types: ["version-update:semver-patch"]
     schedule:
       interval: "monthly"
     target-branch: "main"
 
   - package-ecosystem: "gradle"
     directory: "/complete/"
-    ignore:
-      - dependency-name: "org.springframework.*"
-        update-types: ["version-update:semver-patch"]
     schedule:
       interval: "monthly"
     target-branch: "main"
